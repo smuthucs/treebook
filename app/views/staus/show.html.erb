@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @stau.name %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%= @stau.content %>
+</p>
+
+
+<%= link_to 'Edit', edit_stau_path(@stau) %> |
+<%= link_to 'Back', staus_path %>
